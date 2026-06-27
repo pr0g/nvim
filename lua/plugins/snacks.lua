@@ -3,6 +3,9 @@ return {
   priority = 1000,
   lazy = false,
   ---@type snacks.Config
+  keys = {
+    { "<leader>e", function() Snacks.explorer() end, desc = "Toggle Explorer" },
+  },
   opts = {
     -- your configuration comes here
     -- or leave it empty to use the default settings
