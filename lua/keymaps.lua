@@ -19,4 +19,4 @@ vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 vim.keymap.set("n", "0", "^", { noremap = true })
 -- support Ctrl-D for deleting a character in insert mode
 vim.keymap.set("i", "<C-d>", "<Del>", { noremap = true })
-
+vim.keymap.set("n", "<leader>h", vim.diagnostic.open_float)
